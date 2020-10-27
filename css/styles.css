@@ -1,0 +1,66 @@
+.papers-btn{
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding:.2rem .1rem;
+    font-size: 0.9rem;
+    line-height: 1.0;
+    border-radius: .25rem;
+    transition: color .05s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.pbtn1{
+  color: white;
+    border-color: #007bff;
+    background-color: #007bff;
+}
+.pbtn2{
+    color: white;
+
+  border-color: #6c757d;
+    background-color: #6c757d;
+}
+.pbtn3{
+  color: white;
+
+  border-color: #17a2b8;
+    background-color: #17a2b8;
+}
+
+.pbtn4{
+    color: white;
+    border-color:cornflowerblue;
+    background-color: cornflowerblue;
+}
+
+
+.pappers{
+  padding-left: 00px;
+}
+
+.boderColor{
+    border-color: #6c757d;
+}
+
+.myLogo{
+  border-radius: 100px;
+}
+
+.des{
+    font-size: 15px;
+}
+
+#aboutme{
+    font-size: 17px;
+}
+
+#cv{
+    font-size: 17px;
+}
