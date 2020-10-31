@@ -17,91 +17,81 @@
       <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <main class="w-100 container-fluid">
-      <div class="row">
-          <nav id="tmSidebar" class="tm-bg-black-transparent tm-sidebar">
+    <main class=" container-fluid">
+      <div class="row ">
+          <nav id="tmSidebar" class="tm-bg-black-transparent tm-sidebar ">
             <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
               <i class="fas fa-bars"></i>
             </button>
-            <div class="tm-sidebar-sticky">
+            <div class="tm-sidebar-sticky ">
               <div class="tm-brand-box">
                   <h5 class="font-weight-bold large mb-2">Sahithi Ankireddy</h5>
-<!--                <div class="tm-double-border-1">-->
-<!--                  <div class="tm-double-border-2">-->
                       <div class="text-center">
-                        <img src="img/Logo.jpg" class="img-fluid img-thumbnai mx-autu myLogo " alt="picture">
+                        <img src="img/Logo.jpg" class="img-fluid img-thumbnai mx-auto myLogo " alt="picture">
                       </div>
-<!--                  </div>-->
-<!--                </div>-->
                 <div class="text-center text-white small">
                   <br><p class="mb--0 mb-0"></p>
                   <p class="mb-0">James B. Conant High School </p>
                 </div>
               </div>
-
               <ul id="tmMainNav" class="nav flex-column text-uppercase text-right tm-main-nav">
                 <li class="nav-item">
                   <a href="#about" class="nav-link">
-                    <span class="d-inline-block mr-3">About Me</span>
+                    <span class="d-inline-block mr-2 small">About Me</span>
                     <span class="d-inline-block tm-white-rect"></span>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#papers" class="nav-link">
-                    <span class="d-inline-block mr-3">Research</span>
+                    <span class="d-inline-block mr-2 small">Research</span>
                     <span class="d-inline-block tm-white-rect"></span>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#volunteer" class="nav-link">
-                    <span class="d-inline-block mr-3">Volunteering</span>
+                    <span class="d-inline-block mr-2 small">Volunteering</span>
                     <span class="d-inline-block tm-white-rect"></span>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#awards" class="nav-link">
-                    <span class="d-inline-block mr-3">Awards</span>
+                    <span class="d-inline-block mr-2 small">Awards</span>
                     <span class="d-inline-block tm-white-rect"></span>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#contact" class="nav-link">
-                    <span class="d-inline-block mr-2">Contact</span>
+                    <span class="d-inline-block mr-2 small">Contact</span>
                     <span class="d-inline-block tm-white-rect"></span>
                   </a>
                 </li>
-              </ul>
-              <ul class="nav flex-row tm-social-links">
-<!--                <li class="nav-item">-->
-<!--                  <a href="https://facebook.com" class="nav-link tm-social-link">-->
-<!--                    <i class="fab fa-facebook-f"></i>-->
-<!--                  </a>-->
-<!--                </li>-->
-<!--                <li class="nav-item">-->
-<!--                  <a href="https://twitter.com" class="nav-link tm-social-link">-->
-<!--                    <i class="fab fa-twitter"></i>-->
-<!--                  </a>-->
-<!--                </li>-->
-                <li class="nav-item">
-                  <a target="_blank" href="https://github.com/sahithiankireddy14" class="nav-link tm-social-link">
-                    <i class="fab fa-github"></i>
-                  </a>
+                <li class="nav-item  text-center mt-5 small mr-5" style="padding-left: 60px">
+                  <ul class="nav flex-row tm-social-links">
+                    <li class="nav-item">
+                      <a target="_blank" href="https://github.com/sahithiankireddy14" class="nav-link tm-social-link">
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a target="_blank" href="https://www.linkedin.com/in/sahithiankireddy/" class="nav-link tm-social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                  </ul>
                 </li>
-                <li class="nav-item">
-                  <a target="_blank" href="https://www.linkedin.com/in/sahithiankireddy/" class="nav-link tm-social-link">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
+                <footer class="text-center text-white small">
+                  <p class="">Copyright 2020
+                  <br><a rel="nofollow" href="#" class="tm-footer-link"> Sahithi Ankireddy</a> </p>
+
+                </footer>
+
               </ul>
-              <footer class="text-center text-white small">
-                <p class="mb-0 mb-1">Copyright 2020 </p>
-                <p class="mb-0">
-                  <a rel="nofollow" href="#" class="tm-footer-link"> Sahithi Ankireddy</a>
-                </p>
-              </footer>
+
+
             </div>
           </nav>
-
+     </div>
+   </main>
 
          <!-- About Section -->
           <div class="tm-section-wrap bg-white ">
@@ -141,7 +131,7 @@
                         <p class="des">
                             Application is designed to take in 2D MRI images and will then detect and segment the tumor using Computer Vision. Specifically, a Mask R CNN segmentation model was implemented through transfer learning. I used Google Cloud VM Services to train and validate the model as well.
                         </p>
-                       <div class="pappers" >
+                       <div  class="pappers mb-3" >
                          <a role="button" target="_blank"  href="https://github.com/sahithiankireddy14/sahithiankireddy14.github.io/blob/main/pdf%20files/BTD-computer%20vision%20Paper.pdf"
                           class="papers-btn pbtn1 btn-outline-primary btn-sm">Paper</a>
                          <a role="button" target="_blank" href="https://github.com/sahithiankireddy14/sahithiankireddy14.github.io/blob/main/pdf%20files/BTD-computer%20vision-slides.pdf"
@@ -158,7 +148,7 @@
                            Various optimization and hyper parametrization techniques were applied to increase the accuracy prediction rate of heart disease.
                            At the end, an application was created for the assisted heart disease diagnosis.
                        </p>
-                       <div class="pappers" >
+                       <div class="pappers  mb-3" >
                          <a role="button" target="_blank"  href="https://arxiv.org/abs/2007.12998" class="papers-btn pbtn1 btn-outline-primary btn-sm">arXiv</a>
                            <a role="button" target="_blank"  href="https://expo.undergradresearch.northwestern.edu/presentations/2019/a-novel-approach-to-the-diagnosis-of-heart-disease-using-machine-learning-and-deep-neural-networks/" class="papers-btn pbtn2 btn-outline-secondary">Northwestern</a>
                          <a role="button" target="_blank" href="https://github.com/sahithiankireddy14/sahithiankireddy14.github.io/blob/main/pdf%20files/HD%20diagnosis%20-ML-DNN-slides.pdf"
@@ -175,7 +165,7 @@
                           I investigated the correlation between GPS errors and geomagnetic activity in the ionosphere.
                            Specifics of this correlation and the affected values/systems were discovered as well.
                        </p>
-                       <div class="pappers" >
+                       <div class="pappers  mb-3" >
                            <a role="button" target="_blank"  href="https://expo.undergradresearch.northwestern.edu/presentations/2018/correlation-between-GPS-error-signals-and-geomagnetic-activity-in-the-ionosphere/" class="papers-btn pbtn1 btn-outline-secondary">Northwestern</a>
                          <a role="button" target="_blank"  href="https://github.com/sahithiankireddy14/sahithiankireddy14.github.io/blob/main/pdf%20files/GPS%20error%20signals%20paper.pdf"
                           class="papers-btn pbtn2 btn-outline-primary btn-sm">Paper</a>
