@@ -18,6 +18,7 @@
   </head>
   <body>
     <main class=" container-fluid">
+    <main class=" container-fluid">
       <div class="row ">
           <nav id="tmSidebar" class="tm-bg-black-transparent tm-sidebar ">
             <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
@@ -30,7 +31,7 @@
                         <img src="img/Logo.jpg" class="img-fluid img-thumbnai mx-auto myLogo small mt-2" alt="picture">
                       </div>
                 <div class="text-center text-white small">
-                  <p class="mb-0">James B. Conant High School </p>
+<!--                  <p class="mb-0">James B. Conant High School </p>-->
                 </div>
               </div>
               <ul id="tmMainNav" class="nav flex-column text-uppercase text-right tm-main-nav ">
@@ -54,7 +55,7 @@
                 </li>
                 <li class="nav-item">
                   <a href="#awards" class="nav-link">
-                    <span class="d-inline-block mr-2 small">Awards</span>
+                    <span class="d-inline-block mr-2 small">Honors & Awards</span>
                     <span class="d-inline-block tm-white-rect"></span>
                   </a>
                 </li>
@@ -81,9 +82,9 @@
  </li>
 </ul>
 <footer class="text-center text-white small">
- <p class="mb-0 mb-1">Copyright 2020 </p>
+ <p class="mb-0 mb-1" id="copyright"> ©2020 </p>
  <p class="mb-0">
-   <a rel="nofollow" href="#" class="tm-footer-link"> Sahithi Ankireddy</a>
+   <a rel="nofollow" href="#" class="tm-footer-link">Sahithi Ankireddy</a>
  </p>
 </footer>
 
@@ -101,10 +102,10 @@
                     <div class="tm-section-half">
                         <h2 class="tm-section-title tm-color-primary mb-5">About Me</h2>
                         <p class="mb-3" id = "aboutme">
-                        <b>I’m, Sahithi</b> a high school senior at James B. Conant High School. I have a passion for computer science and societal change. Since freshman year, I've participated in national competitions for research, won multiple awards, and my papers have been published in scientific journals. I also actively participate in Women in STEM organizations such as Girls Who Code and NCWIT. On the side, I train in martial arts and love to cook.
+                        <b>I’m, Sahithi</b> a high school senior at James B. Conant High School. I have a passion for research, computer science and societal change. Since freshman year, I've participated in national competitions for research, won multiple awards, and my papers are published or pending publication. I'm also actively part of Women in STEM organizations such as Girls Who Code and NCWIT. On the side, I train in martial arts and love to cook.
                         </p>
                         <p class="mb-0" id="cv">
-                          Here's my <a href="#" style="color: #7a92fa;font-style: normal"> CV </a> and my
+                          Here's my <a href="#" style="color: #7a92fa;font-style: normal"> CV </a> and
                           <a href="#contact" style="color: #7a92fa;font-style: normal"> contact info. </a>
                         </p>
                     </div>
@@ -127,8 +128,11 @@
                         <p class="mb-1">
                         <b>Brain Tumor Detection and Segmentation using Computer Vision, 2019-2020</b> <br>
                        </p>
+                        <p class="publication">
+                            <i>presented at 2020 IEEE MIT URTC and will be published in IEEE Xplore Journal as part of proeceedings</i>
+                        </p>
                         <p class="des">
-                            Application is designed to take in 2D MRI images and will then detect and segment the tumor using Computer Vision. Specifically, a Mask R CNN segmentation model was implemented through transfer learning. I used Google Cloud VM Services to train and validate the model as well.
+                            The application is designed to take in 2D MRI images and will then detect and segment the tumor using a convolutional neural network. Specifically, I implemented a Mask R CNN segmentation model through transfer learning. I also used Google Cloud VM Services to train and validate the model.
                         </p>
                        <div  class="pappers mb-3" >
                          <a role="button" target="_blank"  href="https://github.com/sahithiankireddy14/sahithiankireddy14.github.io/blob/main/pdf%20files/BTD-computer%20vision%20Paper.pdf"
@@ -139,13 +143,17 @@
                           class="papers-btn pbtn3 btn-outline-info">Poster</a>
                        </div>
 
+
                        <p class="mb-1">
                        <b>Diagnosis of Heart Disease Using Machine Learning and Deep Neural Networks, 2018-2019</b> <br>
                       </p>
+                        <p class="publication">
+                            <i class="publication">presented at 2019 IEEE MIT URTC and Northwestern Undergraduate Research and Arts Exposition</i>
+                        </p>
                        <p class="des">
                            I used Google TensorFlow and scikit-learn to develop machine learning models and neural networks.
-                           Various optimization and hyper parametrization techniques were applied to increase the accuracy prediction rate of heart disease.
-                           At the end, an application was created for the assisted heart disease diagnosis.
+                           I applied various optimization and hyper parametrization techniques to increase the accuracy prediction rate of heart disease.
+                           At the end, I created an application for assisted heart disease diagnosis, where doctors get input a patient's lab data and immediately get a result.
                        </p>
                        <div class="pappers  mb-3" >
                          <a role="button" target="_blank"  href="https://arxiv.org/abs/2007.12998" class="papers-btn pbtn1 btn-outline-primary btn-sm">arXiv</a>
@@ -160,6 +168,9 @@
                        <p class="mb-1">
                        <b>Correlation Between GPS Error Signals and Geomagnetic Activity in the Ionosphere, 2017-2018</b> <br>
                       </p>
+                        <p class="publication">
+                            <i class="publication">presented at 2018 Northwestern Undergraduate Research and Arts Exposition</i>
+                        </p>
                        <p class="des">
                           I investigated the correlation between GPS errors and geomagnetic activity in the ionosphere.
                            Specifics of this correlation and the affected values/systems were discovered as well.
@@ -168,7 +179,6 @@
                            <a role="button" target="_blank"  href="https://expo.undergradresearch.northwestern.edu/presentations/2018/correlation-between-GPS-error-signals-and-geomagnetic-activity-in-the-ionosphere/" class="papers-btn pbtn1 btn-outline-secondary">Northwestern</a>
                          <a role="button" target="_blank"  href="https://github.com/sahithiankireddy14/sahithiankireddy14.github.io/blob/main/pdf%20files/GPS%20error%20signals%20paper.pdf"
                           class="papers-btn pbtn2 btn-outline-primary btn-sm">Paper</a>
-                         <a role="button" target="_blank"  href="#" class="papers-btn pbtn3 btn-outline-secondary">Slides</a>
                          <a role="button" target="_blank"  href="https://github.com/sahithiankireddy14/sahithiankireddy14.github.io/blob/main/pdf%20files/GPS%20error%20signals-poster.pdf"
                           class="papers-btn pbtn4 btn-outline-info">Poster</a>
                        </div>
@@ -197,8 +207,9 @@
                       <b>Youth Advocates for Change,</b><span style="font-style: italic"> Leader</span> <br>
                       </p>
                       <p class="des">
-                          Creating meaningful change through digital and in person campaigns. Our past focuses have been on vaping, and mental health.
-                          We have held community discussions, started a #WellnessWednesday social media campaign, and the InterconnectED Podcast.
+                          Creating meaningful change through digital and in person campaigns, where past focuses have been on anti-vaping and mental health.
+                          I have held community discussions, started a #WellnessWednesday social media campaign, and the InterconnectED Podcast. Also, I've organized
+                          a book drive with over 1000 books for kids at behavioral health hospitals in Chicagoland area.
                       </p>
 
                       <p class="mb-1">
@@ -206,7 +217,7 @@
                       </p>
 
                       <p class="des">
-                          I mentor K-8th graders in computer science, design curriculum for grade levels, organize speaker nights, and created educational videos and online curriculum.
+                          I mentored K-8th graders in computer science, designed curriculum for grade levels, organized speaker nights, and created educational videos and online curriculum.
                       </p>
 
                       <p class="mb-1">
@@ -214,7 +225,7 @@
                       </p>
 
                       <p class="des">
-                          I pack nutritional meals to distribute to malnourished kids all over the world.
+                          I packed nutritional meals to distribute to malnourished kids all over the world.
                       </p>
 
                     </div>
@@ -235,8 +246,8 @@
                 <div class="w-100 tm-double-border-1 tm-border-gray ">
                   <div class="tm-double-border-2 tm-border-gray tm-box-pad">
                     <div class="tm-section-half">
-                        <h2 class="tm-section-title tm-color-primary mb-5">Honors / Awards </h2>
-                        <ul>
+                        <h2 class="tm-section-title tm-color-primary mb-5">Honors & Awards </h2>
+                        <ul id="award">
                             <li>
                                 <p class="mb-1">
 
@@ -273,7 +284,12 @@
 
 
                                 <p class="mb-1">
-                                    <b>Best Paper Award at IEEE MIT Undergraduate Research Technology Conference
+
+                                    <a target="_blank" href=" https://tinyurl.com/yxvgg7a5">
+                                        <span>  <b> Best Paper Award at IEEE MIT Undergraduate Research Technology Conference</b> </span> </a>
+
+
+
 
                                     </b><span style="font-style: italic">10/2019</span> <br>
                                 </p>
@@ -298,7 +314,7 @@
 
                             <li>
                                 <p class="mb-1">
-                                    <b>2 times recipient of President’s Volunteer Service Gold Award </b><span style="font-style: italic"> 2019, 2020</span> <br>
+                                    <b>2 time recipient of President’s Volunteer Service Gold Award </b><span style="font-style: italic"> 2019, 2020</span> <br>
                                 </p>
                             </li>
 
@@ -341,7 +357,7 @@
                   <div class="tm-double-border-1 tm-border-gray">
                     <div class="tm-double-border-2 tm-border-gray tm-box-pad contact">
                         <h2 class="tm-section-title tm-color-primary mb-5">Contact Me</h2>
-                        <p class="mb-1">
+                        <p class="mb-1" id="contactme">
                           Phone Number: 224-508-9318 <br>
                             Email: sahithia14@gmail.com
                         </p>

@@ -60,9 +60,24 @@
 }
 
 #aboutme{
-    font-size: 17px;
+    font-size: 15px;
 }
 
 #cv{
-    font-size: 17px;
+    font-size: 15px;
 }
+#award{
+    font-size: 16px;
+}
+
+#contactme{
+    font-size: 16px;
+}
+
+.publication{
+    font-size: 12px;
+}
+#copyright{
+    font-size: 11px;
+}
+
