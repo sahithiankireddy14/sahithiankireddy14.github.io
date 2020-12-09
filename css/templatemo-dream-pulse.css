@@ -71,7 +71,7 @@ a {
   align-items: center;
   height: auto;
   max-width: 1275px;
-  padding: 25px 60px;
+  padding: 15px 20px;
 }
 
 #intro {
@@ -105,11 +105,11 @@ a {
 }
 
 .tm-border-gray {
-  border-color: #cdcecf;
+  border-color: #ffffff/* #cdcecf */;
 }
 
 .tm-box-pad {
-  padding: 50px 55px;
+  padding: 30px 30px;
 }
 
 .tm-brand {
@@ -145,13 +145,13 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: auto;
-  height:650px;
+ padding: 0px;
+ margin: 0px;
+  height:600px;
 }
 
 .tm-section-wrap {
-  width: calc(100% - 400px);
-  margin-left: auto;
+  width: 100%;
   margin-right: 0;
 }
 
@@ -239,9 +239,9 @@ a {
 }
 
 .tm-section-half {
-  padding-top: 20px;
+  padding-top: 10px;
   padding-right: 55px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-left: 20px;
 }
 
@@ -556,17 +556,27 @@ figure.effect-bubba:hover p {
 
 @media (max-width: 1600px) {
   .tm-sidebar {
-    width: 30%;
+    width: 20%;
     max-width: none;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 00px;
+    padding-right: 00px;
   }
 
+  .bg-red{
+      background-color: #9e3939;
+  height: 100%;
+  margin: 0px;
+  padding: 00px
+  }
   .tm-social-link {
     margin: 5px;
   }
-
+  .bg-red{
+      background-color: #9e3939;
+  height: 100%;
+  }
   .tm-section-wrap {
+      margin-left:20%;
     width: 70%;
   }
 
@@ -575,7 +585,9 @@ figure.effect-bubba:hover p {
     height: 100%;
   }
 }
-
+.small{
+font-size: 13px;
+}
 .navbar-toggler {
   display: none;
 }
@@ -584,12 +596,18 @@ figure.effect-bubba:hover p {
   .tm-bg-black-transparent {
     background-color: rgba(0, 0, 0, 0.5);
   }
+  .bg-red{
+      background-color: #474646;
 
+  height: 100%;
+  width: 100%;
+
+  }
   .tm-brand-box {
     margin-top: 30px;
     margin-bottom: 30px;
-    max-width: 200px;
-    min-height: 100px;
+    max-width: 300px;
+    min-height: 200px;
   }
 
   .tm-brand {
@@ -643,6 +661,7 @@ figure.effect-bubba:hover p {
   }
 
   .tm-section-wrap {
+      margin-left:5%;
     width: 100%;
   }
 
@@ -657,11 +676,12 @@ figure.effect-bubba:hover p {
     line-height: 1.5;
   }
 
+
 }
 
 @media (max-width: 998px) {
   .tm-section {
-    padding: 15px;
+    padding: 5px;
   }
   .tmSidebar{
     height: 100px;
@@ -682,7 +702,7 @@ figure.effect-bubba:hover p {
 
 @media (max-width: 767px) {
   .tm-section {
-    padding: 15px;
+    padding: 5px;
   }
   .tmSidebar{
     height: 100px;
