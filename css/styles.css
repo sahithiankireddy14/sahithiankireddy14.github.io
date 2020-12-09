@@ -49,6 +49,13 @@
     border-color: #6c757d;
 }
 
+.line{
+
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin-left: 5% ;
+}
 .myLogo{
   border-radius: 100px;
   width: 150px;
