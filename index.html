@@ -93,15 +93,15 @@
    </main>
 
          <!-- About Section -->
-          <div class="tm-section-wrap bg-white">
+          <div class="tm-section-wrap bg-white text-justify">
             <section id="about" class="row tm-section ">
               <div class="col-xl-12">
                 <div class="w-100 tm-double-border-1 tm-border-gray ">
                   <div class="tm-double-border-2 tm-border-gray tm-box-pad">
                     <div class="tm-section-half">
                         <h2 class="tm-section-title tm-color-primary mb-2">About Me</h2>
-                        <p class="mb-3 des" id = "aboutme">
-                          <b>I’m, Sahithi</b> a high school senior at James B. Conant High School. I have a passion for research, computer science and societal change. Since freshman year, I've participated in national competitions for research, won multiple awards, and my papers are published or pending publication. I'm also actively part of Women in STEM organizations such as Girls Who Code and NCWIT. On the side, I train in martial arts and love to cook.
+                        <p class="mb-3 des " id = "aboutme">
+                          <b>I’m, Sahithi</b> a high school senior at James B. Conant High School. I have a passion for research, computer science and healthcare. Since freshman year, I've participated in state or national competitions for research and won multiple awards. My papers are published in arXiv and pending publication in IEEE Xplore.  For my research, I developed artificial intelligence (AI) diagnostic tools. I hope to continue similar projects in college to build assistive tools for healthcare, especially for those in resource-constrained areas. I’m also eager to address social issues in my community and led a mental-health awareness campaign in addition to organizing a book drive for hospitalized children. On the side, I train in martial arts and love to cook.
                          </p>
                         <p class="mb-0" id="cv">
                           Here's my <a href="https://github.com/sahithiankireddy14/sahithiankireddy14.github.io/blob/main/pdf%20files/Sahithi_Ankireddy_Resume_Nov.pdf" style="color: #7a92fa;font-style: normal"> CV </a> and my
@@ -117,7 +117,7 @@
 
 
          <!-- Research Section -->
-          <div class="tm-section-wrap bg-white">
+          <div class="tm-section-wrap bg-white text-justify ">
             <section id="papers" class="row tm-section ">
               <div class=" col-xl-12 ">
                 <div class="w-100 tm-double-border-1 tm-border-gray ">
@@ -131,7 +131,7 @@
                             <i class="small">presented at 2020 IEEE MIT URTC and will be published in IEEE Xplore Journal as part of proeceedings</i>
                         </p>
                         <p class="des">
-                            The application is designed to take in 2D MRI images and will then detect and segment the tumor using a convolutional neural network. Specifically, I implemented a Mask R CNN segmentation model through transfer learning. I also used Google Cloud VM Services to train and validate the model.
+                            The application is designed to take in 2D MRI images and will then detect and segment the tumor using a convolutional neural network. Specifically, I implemented a Mask R CNN segmentation model through transfer learning. I also used Google Cloud Services for 6 vCPUs and 60 GB memory Linux server running Ubuntu to train the neural network.
                         </p>
                        <div  class="pappers mb-3" >
                          <a role="button" target="_blank"  href="https://arxiv.org/abs/2011.08185"
@@ -142,16 +142,17 @@
                           class="papers-btn pbtn3 btn-outline-info">Poster</a>
                        </div>
                        <p class="mb-1">
-                                              <b>Diagnosis of Heart Disease Using Machine Learning and Deep Neural Networks, 2018-2019</b> <br>
-                                             </p>
-                                               <p class="publication">
-                                                   <i class="small">presented at 2019 IEEE MIT URTC and Northwestern Undergraduate Research and Arts Exposition</i>
-                                               </p>
-                                              <p class="des">
-                                                  I used Google TensorFlow and scikit-learn to develop machine learning models and neural networks.
-                                                  I applied various optimization and hyper parametrization techniques to increase the accuracy prediction rate of heart disease.
-                                                  At the end, I created an application for assisted heart disease diagnosis, where doctors get input a patient's lab data and immediately get a result.
-                                              </p>
+                         <b>Diagnosis of Heart Disease Using Machine Learning and Deep Neural Networks, 2018-2019</b> <br>
+                       </p>
+                        <p class=" d-flex ">
+                         <i class="small ">presented at 2019 IEEE MIT URTC and Northwestern Undergraduate Research and Arts Exposition. It’s pending publication in IEEE Xplore as part of proceedings.</i>
+                          </p>
+                          <p class="des">
+                            I developed an application for assistive heart disease diagnosis. I utilized Google
+                            TensorFlow and scikit-learn to develop machine learning models and neural networks.
+                            Then, I applied various optimization and hyper parametrization like the Grid Search Algorithm to increase the accuracy prediction rate of heart disease.
+
+                          </p>
                        <div class="pappers  mb-3" >
                          <a role="button" target="_blank"  href="https://arxiv.org/abs/2007.12998" class="papers-btn pbtn1 btn-outline-primary btn-sm">arXiv</a>
                            <a role="button" target="_blank"  href="https://expo.undergradresearch.northwestern.edu/presentations/2019/a-novel-approach-to-the-diagnosis-of-heart-disease-using-machine-learning-and-deep-neural-networks/" class="papers-btn pbtn2 btn-outline-secondary">Northwestern</a>
@@ -165,12 +166,13 @@
                        <p class="mb-1">
                        <b>Correlation Between GPS Error Signals and Geomagnetic Activity in the Ionosphere, 2017-2018</b> <br>
                       </p>
-                        <p class="publication">
+                        <p class="publication d-flex">
                             <i class="small">presented at 2018 Northwestern Undergraduate Research and Arts Exposition</i>
                         </p>
                        <p class="des">
-                          I investigated the correlation between GPS errors and geomagnetic activity in the ionosphere.
-                           Specifics of this correlation and the affected values/systems were discovered as well.
+                          Investigated GPS errors and geomagnetic
+                           activity in the ionosphere to discover affected systems,
+                           helping industries relying heavily on geolocation devices
                        </p>
                        <div class="pappers  mb-3" >
                            <a role="button" target="_blank"  href="https://expo.undergradresearch.northwestern.edu/presentations/2018/correlation-between-GPS-error-signals-and-geomagnetic-activity-in-the-ionosphere/" class="papers-btn pbtn1 btn-outline-secondary">Northwestern</a>
@@ -194,7 +196,7 @@
 
 
          <!-- VOLUNTEERING  Section -->
-          <div class="tm-section-wrap bg-white">
+          <div class="tm-section-wrap bg-white text-justify">
             <section id="volunteer" class="row tm-section ">
               <div class=" col-xl-12 ">
                 <div class="w-100 tm-double-border-1 tm-border-gray ">
@@ -202,28 +204,60 @@
                     <div class="tm-section-half">
                         <h2 class="tm-section-title tm-color-primary mb-2">Volunteering</h2>
                         <p class="mb-1">
-                        <b>Youth Advocates for Change,</b><span style="font-style: italic"> Leader</span> <br>
+                        <b>Youth Advocates for Change,</b><span style="font-style: italic"> Leader   &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                           08/2019 -present</span> <br>
                         </p>
                         <p class="des">
-                            Creating meaningful change through digital and in person campaigns, where past focuses have been on anti-vaping and mental health.
-                            I have held community discussions, started a #WellnessWednesday social media campaign, and the InterconnectED Podcast. Also, I've organized
-                            a book drive with over 1000 books for kids at behavioral health hospitals in Chicagoland area.
+                            I’ve initiated digital and in-person campaigns, where focuses have been on mental health,
+                            drug abuse prevention, and racial equality. I’ve organized community discussions, including
+                             meeting with Congressman Raja Krishnamoorthi for anti-bullying. In addition, I led the WellnessWednesday
+                              mental health social media campaign, and started the InterconnectED Podcast.
+                             Currently, I’m planning a racial equity online summit/conference.
                         </p>
 
                         <p class="mb-1">
-                        <b>CompSci Kids,</b><span style="font-style: italic"> Leadership Team</span>
+                        <b>CompSci Kids,</b><span style="font-style: italic"> Leadership Team   &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                           09/2018 – present  </span>
                         </p>
 
                         <p class="des">
-                            I mentored K-8th graders in computer science, designed curriculum for grade levels, organized speaker nights, and created educational videos and online curriculum.
+                            I mentored K-8th graders in computer science, designed curriculum and activities for grade levels,
+                            organized guest speaker events, and created educational videos and online content.
                         </p>
 
                         <p class="mb-1">
-                            <b>Feed My Starving Children</b>
+                        <b>Girl Genius,</b><span style="font-style: italic"> Partnerships Manager   &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                           6/2020 – Present  </span>
                         </p>
 
                         <p class="des">
-                            I packed nutritional meals to distribute to malnourished kids all over the world.
+                          I’ve found and contacted organizations for partnerships, followed up with
+                            partnerships in a timely manner, and brainstormed new workshop, panel and
+                            conference ideas
+
+                        </p>
+
+
+                        <p class="mb-1">
+                        <b>National Karate,</b><span style="font-style: italic"> Trainee   &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                           06/2017 - Present  </span>
+                        </p>
+
+                        <p class="des">
+                          I train 4 times a week in sparring, self-defense, and form.
+                          I also attend bi-annual tournament and have won first various times the past 4 years.
+                           I help younger belts with their training, and I’m a 1st degree black belt candidate
+
+                        </p>
+
+
+                        <p class="mb-1">
+                            <b>Feed My Starving Children</b> <span style="font-style: italic">  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                               06/2012 -Present   </span>
+                        </p>
+
+                        <p class="des">
+                            I’ve packed nutritional meals to distribute to malnourished kids all over the world.
                         </p>
 
 
@@ -239,43 +273,24 @@
 
 
          <!-- Awards  Section -->
-          <div class="tm-section-wrap bg-white">
+          <div class="tm-section-wrap bg-white text-justify">
             <section id="awards" class="row tm-section ">
               <div class=" col-xl-12 ">
                 <div class="w-100 tm-double-border-1 tm-border-gray ">
                   <div class="tm-double-border-2 tm-border-gray tm-box-pad">
                     <div class="tm-section-half mt-0 p-0">
-                        <h2 class="tm-section-title tm-color-primary mb-2">Honors / Awards </h2>
+                        <h2 class="tm-section-title  tm-color-primary mb-2">Honors / Awards </h2>
+
+                        <h5 class=" tm-color-primary mb-2">Research Showcase and Competition Awards.   </h5>
                         <ul id="award">
                              <li>
                                  <p class="mb-1 des">
 
                                  <a target="_blank" href="https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&Finalist=Ankireddy&AllAbstracts=True&FairCountry=Any%20Country&FairState=Any%20State&ProjectId=17847">
-                                     <span>  <b> Intel ISEF Finalist </b> </span> </a>
-                                 <span style="font-style: italic"> 05/2019</span> <br>
+                                     <span>  <b>	Intel International Science and Engineering Fair (ISEF) Finalist in Robotics and Intelligent Machines  </b> </span> </a>
+                                 <span style="font-style: italic"> 2019</span> <br>  <span style="font-style: italic">One among the 1800 students selected around the globe</span> <br>
                                  </p>
 
-
-                             </li>
-
-                             <li>
-
-                                 <p class="mb-1 des">
-                                     <a target="_blank" href="http://www.usaco.org/current/data/feb20_bronze_results.html">
-                                         <span>  <b> USACO Silver Division </b> </span> </a>
-                                     <span style="font-style: italic"> 02/2020</span> <br>
-                                 </p>
-
-                             </li>
-
-                             <li>
-                                 <p class="mb-1 des">
-
-                                     <a target="_blank" href="https://www.aspirations.org/user/144121">
-                                         <span>  <b> NCWIT AiC Northern Illinois Affiliate Winner</b> </span> </a>
-
-                                     <span style="font-style: italic"> 02/2020</span> <br>
-                                 </p>
 
                              </li>
 
@@ -285,65 +300,129 @@
                                  <p class="mb-1 des">
 
                                      <a target="_blank" href=" https://tinyurl.com/yxvgg7a5">
-                                         <span>  <b> Best Paper Award at IEEE MIT Undergraduate Research Technology Conference</b> </span> </a>
-
-
-
-
-                                     </b><span style="font-style: italic">10/2019</span> <br>
+                                         <span>  <b>	Best Paper Award at IEEE MIT Undergraduate Research Technology Conference (URTC) </b> </span> </a>
+                                     </b><span style="font-style: italic"> 2019</span> <br>
+                                      <span style="font-style: italic">Top paper out of 110 selected papers at a Collegiate Level Conference</span> <br>
                                  </p>
 
-
-                             </li>
-                              <li>
-                                 <p class="mb-1 des">
-                                   <a target="_blank" href=" https://adc.d211.org/Page/7939">
-                                         <span>  <b> BPA 1st Place at Nationals for Global Marketing Team</b> </span> </a>
-
-                                   <span style="font-style: italic"> 05/2019</span> <br>
-                                 </p>
-                             </li>
-
-
-                             <li>
-                                 <p class="mb-1 des">
-                                     <b>Intel Excellence in Computer Science Award  </b><span style="font-style: italic"> 03/2019</span> <br>
-                                 </p>
-
-                             </li>
-
-                             <li>
-
-                                 <p class="mb-1 des">
-                                     <b>3 years Best in Category at IJAS  </b><span style="font-style: italic"> 03/2017 - 03/2019 </span> <br>
-                                 </p>
 
                              </li>
 
                              <li>
                                  <p class="mb-1 des">
-                                     <b>2 time recipient of President’s Volunteer Service Gold Award </b><span style="font-style: italic"> 2019, 2020</span> <br>
-                                 </p>
-                             </li>
-                     <li>
-                                 <p class="mb-1 des">
-                                     <b>2 Years National BPA Qualifier </b><span style="font-style: italic"> 2019, 2020</span> <br>
+
+                                         <span>  <b>	3 years Best in Category award at Illinois Junior Academy of Science (IJAS), </b> </span>
+                                     </b><span style="font-style: italic"> 2018 | 2019 |2020</span> <br>
+                                      <span style="font-style: italic">Top project in computer science category at regional and state fairs for 3 years</span> <br>
                                  </p>
                              </li>
 
                              <li>
                                  <p class="mb-1 des">
-                                     <b>IJAS Region 6 American Statistical Association Award </b><span style="font-style: italic"> 03/2019</span> <br>
-                                 </p>
 
+                                         <span>  <b>	2-time Junior Science and Humanities (JSHS) Chicago Region Finalist,  </b> </span>
+                                     </b><span style="font-style: italic">  2019 |2020</span> <br>
+                                      <span style="font-style: italic">Project Selected for Oral and Poster presentation for 2 years </span> <br>
+                                 </p>
+                             </li>
+                           </ul>
+
+
+                             <h5 class=" tm-color-primary mb-2">Leadership & community awards </h5>
+                         <ul id="award">
+
+                           <li>
+                              <p class="mb-1 des">
+                                <a target="_blank" href=" https://adc.d211.org/Page/7939">
+                                      <span>  <b> Business Professionals of America (BPA) 1st Place at Nationals for Global Marketing Team    </b> </span> </a>
+
+                                <span style="font-style: italic"> 2019</span> <br>
+                                <span style="font-style: italic">  One team awarded first place among 30 teams at national level</span>
+                              </p>
+                           </li>
+
+                           <li>
+                               <p class="mb-1 des">
+
+                                       <span>  <b>	2-time National BPA Qualifier</b> </span>
+                                   </b><span style="font-style: italic"> 2019, 2020</span> <br>
+                                    <span style="font-style: italic">  Qualified for nationals in tech and marketing events </span> <br>
+                               </p>
+                           </li>
+
+                           <li>
+                               <p class="mb-1 des">
+
+                                       <span>  <b>	2-time recipient of President’s Volunteer Service Gold Award </b> </span>
+                                   </b><span style="font-style: italic"> 2019, 2020</span> <br>
+                                    <span style="font-style: italic">  Completed 350+ hours of volunteer service for various community causes. </span> <br>
+                               </p>
+                           </li>
+
+                         </ul>
+
+
+                           <h5 class=" tm-color-primary mb-2">Computing awards:  </h5>
+                         <ul id="award">
+
+
+
+
+
+
+                             <li>
+
+                                 <p class="mb-1 des">
+                                     <a target="_blank" href="http://www.usaco.org/current/data/feb20_bronze_results.html">
+                                         <span>  <b>	USA Computing Olympiad (USACO) Silver Division     </b> </span> </a>
+                                     <span style="font-style: italic"> 2020</span> <br>
+                                      <span style="font-style: italic">Scored 846 out of 1000 and officially qualified for Silver Division </span>
+                                 </p>
 
                              </li>
 
-                             
                              <li>
                                  <p class="mb-1 des">
-                                     <b>BPA Top 18 at Nationals in Computer Security  </b><span style="font-style: italic"> 05/2019</span> <br>
+
+                                     <a target="_blank" href="https://www.aspirations.org/user/144121">
+                                         <span>  <b> National Center for Women in Technology (NCWIT) Aspirations in Computing Northern Illinois Affiliate Winner</b> </span> </a>
+
+                                     <span style="font-style: italic"> 2020</span> <br>
+                                      <span style="font-style: italic"> Award honors students for computing-related accomplishments, leadership ability and academic performance </span> <br>
                                  </p>
+
+                             </li>
+
+
+
+
+
+                             <li>
+                                 <p class="mb-1 des">
+                                     <b>Intel Excellence in Computer Science Award  </b>
+                                     <span style="font-style: italic"> 2019</span> <br>
+                                      <span style="font-style: italic">Selected by Intel as top CS project in Chicago regional fair </span> <br>
+                                 </p>
+
+                             </li>
+
+                             <li>
+                                 <p class="mb-1 des">
+                                     <b>	IJAS Region 6 American Statistical Association Award  </b>
+                                     <span style="font-style: italic"> 2019</span> <br>
+
+                                 </p>
+
+                             </li>
+
+
+                             <li>
+                                 <p class="mb-1 des">
+                                     <b>	BPA Top 18 at Nationals in Computer Security   </b>
+                                     <span style="font-style: italic"> 2019</span> <br>
+
+                                 </p>
+
                              </li>
 
 
@@ -359,7 +438,7 @@
          <!--End Awards Section -->
 
    <!-- Contact Section -->
-          <div class="tm-section-wrap bg-white">
+          <div class="tm-section-wrap bg-white text-justify">
             <section id="contact" class="row tm-section ">
               <div class=" col-xl-12 ">
                 <div class="w-100 tm-double-border-1 tm-border-gray ">
