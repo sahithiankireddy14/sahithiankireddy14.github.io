@@ -181,13 +181,19 @@
 	background-color: rgba(0,0,0,0.5);
 	color: #fff;
 	text-align: left;
+  padding: 5px;
+  line-height: 15px;
 }
 .gal-container .description h4{
 	margin:0px;
-  padding: 0px;
-	font-size: 12px;
+
+	font-size: 13px;
 	font-weight: 150;
 	line-height: 5px;
+  text-align:center;
+
+
+  line-height: 15px;
 }
 .gal-container .modal.fade .modal-dialog {
     -webkit-transform: scale(0.1);
